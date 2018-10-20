@@ -1,9 +1,13 @@
 package com.fdmgroup.repository;
 
 import java.util.List;
-import java.util.ArrayList;
 
+import org.springframework.stereotype.Repository;
+
+import java.util.ArrayList;
 import com.fdmgroup.model.Customer;
+
+@Repository("customerRepository")
 
 public class HibernateCustomerRepositoryImpl implements CustomerRepository {
 
